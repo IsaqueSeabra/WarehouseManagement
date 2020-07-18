@@ -1,9 +1,0 @@
-C:\Users\isaqu\source\repos\WarehouseManagement\WarehouseManagement.Domain\bin\Debug\netcoreapp3.1\WarehouseManagement.Domain.deps.json
-C:\Users\isaqu\source\repos\WarehouseManagement\WarehouseManagement.Domain\bin\Debug\netcoreapp3.1\WarehouseManagement.Domain.dll
-C:\Users\isaqu\source\repos\WarehouseManagement\WarehouseManagement.Domain\bin\Debug\netcoreapp3.1\WarehouseManagement.Domain.pdb
-C:\Users\isaqu\source\repos\WarehouseManagement\WarehouseManagement.Domain\obj\Debug\netcoreapp3.1\WarehouseManagement.Domain.csprojAssemblyReference.cache
-C:\Users\isaqu\source\repos\WarehouseManagement\WarehouseManagement.Domain\obj\Debug\netcoreapp3.1\WarehouseManagement.Domain.AssemblyInfoInputs.cache
-C:\Users\isaqu\source\repos\WarehouseManagement\WarehouseManagement.Domain\obj\Debug\netcoreapp3.1\WarehouseManagement.Domain.AssemblyInfo.cs
-C:\Users\isaqu\source\repos\WarehouseManagement\WarehouseManagement.Domain\obj\Debug\netcoreapp3.1\WarehouseManagement.Domain.csproj.CoreCompileInputs.cache
-C:\Users\isaqu\source\repos\WarehouseManagement\WarehouseManagement.Domain\obj\Debug\netcoreapp3.1\WarehouseManagement.Domain.dll
-C:\Users\isaqu\source\repos\WarehouseManagement\WarehouseManagement.Domain\obj\Debug\netcoreapp3.1\WarehouseManagement.Domain.pdb

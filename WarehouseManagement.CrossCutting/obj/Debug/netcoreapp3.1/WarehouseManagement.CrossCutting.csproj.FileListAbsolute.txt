@@ -1,9 +1,0 @@
-C:\Users\isaqu\source\repos\WarehouseManagement\WarehouseManagement.CrossCutting\bin\Debug\netcoreapp3.1\WarehouseManagement.CrossCutting.deps.json
-C:\Users\isaqu\source\repos\WarehouseManagement\WarehouseManagement.CrossCutting\bin\Debug\netcoreapp3.1\WarehouseManagement.CrossCutting.dll
-C:\Users\isaqu\source\repos\WarehouseManagement\WarehouseManagement.CrossCutting\bin\Debug\netcoreapp3.1\WarehouseManagement.CrossCutting.pdb
-C:\Users\isaqu\source\repos\WarehouseManagement\WarehouseManagement.CrossCutting\obj\Debug\netcoreapp3.1\WarehouseManagement.CrossCutting.csprojAssemblyReference.cache
-C:\Users\isaqu\source\repos\WarehouseManagement\WarehouseManagement.CrossCutting\obj\Debug\netcoreapp3.1\WarehouseManagement.CrossCutting.AssemblyInfoInputs.cache
-C:\Users\isaqu\source\repos\WarehouseManagement\WarehouseManagement.CrossCutting\obj\Debug\netcoreapp3.1\WarehouseManagement.CrossCutting.AssemblyInfo.cs
-C:\Users\isaqu\source\repos\WarehouseManagement\WarehouseManagement.CrossCutting\obj\Debug\netcoreapp3.1\WarehouseManagement.CrossCutting.csproj.CoreCompileInputs.cache
-C:\Users\isaqu\source\repos\WarehouseManagement\WarehouseManagement.CrossCutting\obj\Debug\netcoreapp3.1\WarehouseManagement.CrossCutting.dll
-C:\Users\isaqu\source\repos\WarehouseManagement\WarehouseManagement.CrossCutting\obj\Debug\netcoreapp3.1\WarehouseManagement.CrossCutting.pdb
