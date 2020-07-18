@@ -14,7 +14,7 @@ namespace WarehouseManagement.Domain.Entities
         /// <summary>
         /// Quantidade de itens do produto
         /// </summary>
-        public string Quantidade { get; set; }
+        public long Quantidade { get; set; }
 
         /// <summary>
         /// Valor unitário do produto

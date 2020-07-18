@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\WarehouseManagement.CrossCutting\WarehouseManagement.CrossCutting.csproj" />
     <ProjectReference Include="..\WarehouseManagement.Domain\WarehouseManagement.Domain.csproj" />
     <ProjectReference Include="..\WarehouseManagement.Infra\WarehouseManagement.Infra.csproj" />
     <ProjectReference Include="..\WarehouseManagement.Service\WarehouseManagement.Service.csproj" />

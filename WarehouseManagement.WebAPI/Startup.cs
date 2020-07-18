@@ -11,6 +11,11 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using WarehouseManagement.CrossCutting.Ioc;
+using System.Data;
+using System.Data.SQLite;
+using System.IO;
+using Dapper;
 
 namespace WarehouseManagement.WebAPI
 {
@@ -29,6 +34,18 @@ namespace WarehouseManagement.WebAPI
             services.AddCors();
             services.AddControllers();
 
+            var dbFilePath = "./WmsDb.sqlite";
+            var sqlite = new SQLiteConnection($"Data Source={dbFilePath};Version=3;");
+
+            if (!File.Exists(dbFilePath))
+            {
+                SQLiteConnection.CreateFile(dbFilePath);
+                CreateDatabase(sqlite);
+            }
+
+            services.AddSingleton<IDbConnection>(s => sqlite);
+            RegisterServices(services);
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo
@@ -40,6 +57,19 @@ namespace WarehouseManagement.WebAPI
             });
         }
 
+        private static void CreateDatabase(SQLiteConnection sqlite)
+        {
+            sqlite.Open();
+            sqlite.Execute(
+                @"CREATE TABLE Produto
+                (
+                    Id varchar(36) primary key,
+                    Nome varchar(200) null,
+                    Quantidade integer null,
+                    Valor real null
+                )");
+        }
+
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
@@ -49,7 +79,7 @@ namespace WarehouseManagement.WebAPI
             }
 
             app.UseSwagger();
-             
+
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Warehouse Management API V1");
@@ -73,6 +103,11 @@ namespace WarehouseManagement.WebAPI
             {
                 endpoints.MapControllers();
             });
+        }
+
+        private static void RegisterServices(IServiceCollection services)
+        {
+            InjecaoDependencia.RegisterServices(services);
         }
     }
 }
