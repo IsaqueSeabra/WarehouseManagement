@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "WarehouseManagement.CrossCutting/1.0.0": {
+        "runtime": {
+          "WarehouseManagement.CrossCutting.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WarehouseManagement.CrossCutting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

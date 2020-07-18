@@ -1,0 +1,14 @@
+C:\Users\isaqu\source\repos\WarehouseManagement\WarehouseManagement.Service\bin\Debug\netcoreapp3.1\WarehouseManagement.Service.deps.json
+C:\Users\isaqu\source\repos\WarehouseManagement\WarehouseManagement.Service\bin\Debug\netcoreapp3.1\WarehouseManagement.Service.dll
+C:\Users\isaqu\source\repos\WarehouseManagement\WarehouseManagement.Service\bin\Debug\netcoreapp3.1\WarehouseManagement.Service.pdb
+C:\Users\isaqu\source\repos\WarehouseManagement\WarehouseManagement.Service\bin\Debug\netcoreapp3.1\WarehouseManagement.Domain.dll
+C:\Users\isaqu\source\repos\WarehouseManagement\WarehouseManagement.Service\bin\Debug\netcoreapp3.1\WarehouseManagement.Infra.dll
+C:\Users\isaqu\source\repos\WarehouseManagement\WarehouseManagement.Service\bin\Debug\netcoreapp3.1\WarehouseManagement.Domain.pdb
+C:\Users\isaqu\source\repos\WarehouseManagement\WarehouseManagement.Service\bin\Debug\netcoreapp3.1\WarehouseManagement.Infra.pdb
+C:\Users\isaqu\source\repos\WarehouseManagement\WarehouseManagement.Service\obj\Debug\netcoreapp3.1\WarehouseManagement.Service.csprojAssemblyReference.cache
+C:\Users\isaqu\source\repos\WarehouseManagement\WarehouseManagement.Service\obj\Debug\netcoreapp3.1\WarehouseManagement.Service.AssemblyInfoInputs.cache
+C:\Users\isaqu\source\repos\WarehouseManagement\WarehouseManagement.Service\obj\Debug\netcoreapp3.1\WarehouseManagement.Service.AssemblyInfo.cs
+C:\Users\isaqu\source\repos\WarehouseManagement\WarehouseManagement.Service\obj\Debug\netcoreapp3.1\WarehouseManagement.Service.csproj.CoreCompileInputs.cache
+C:\Users\isaqu\source\repos\WarehouseManagement\WarehouseManagement.Service\obj\Debug\netcoreapp3.1\WarehouseManagement.Service.csproj.CopyComplete
+C:\Users\isaqu\source\repos\WarehouseManagement\WarehouseManagement.Service\obj\Debug\netcoreapp3.1\WarehouseManagement.Service.dll
+C:\Users\isaqu\source\repos\WarehouseManagement\WarehouseManagement.Service\obj\Debug\netcoreapp3.1\WarehouseManagement.Service.pdb
