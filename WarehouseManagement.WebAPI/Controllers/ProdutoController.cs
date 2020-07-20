@@ -87,8 +87,8 @@ namespace WarehouseManagement.WebAPI.Controllers
 
                 if (produtoExcluido)
                 {
-                    response.Success = false;
-                    response.Message = $"O produto excluido com sucesso!";
+                    response.Success = true;
+                    response.Message = $"Produto excluido com sucesso!";
                 }
                 else
                 {
@@ -183,8 +183,8 @@ namespace WarehouseManagement.WebAPI.Controllers
             {
                 Id = prod.Id,
                 Nome = prod.Nome,
-                Quantidade = prod.Quantidade,
-                Valor = prod.Valor
+                Quantidade = prod.Quantidade.ToString(),
+                Valor = prod.Valor.ToString()
             };
         }
 
@@ -194,8 +194,8 @@ namespace WarehouseManagement.WebAPI.Controllers
             {
                 Id = prod.Id,
                 Nome = prod.Nome,
-                Quantidade = prod.Quantidade,
-                Valor = prod.Valor
+                Quantidade = long.Parse(prod.Quantidade),
+                Valor = decimal.Parse(prod.Valor.ToString())
             };
         }
     }

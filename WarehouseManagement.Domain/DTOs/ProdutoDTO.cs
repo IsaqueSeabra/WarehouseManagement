@@ -8,7 +8,7 @@ namespace WarehouseManagement.Domain.DTOs
     {
         public string Id { get; set; }
         public string Nome { get; set; }
-        public long Quantidade { get; set; }
-        public decimal Valor { get; set; }
+        public string Quantidade { get; set; }
+        public string Valor { get; set; }
     }
 }
