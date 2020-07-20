@@ -68,7 +68,10 @@ class Estoque extends Component {
     }
     handleOpen(value, type) {
         if (value === null || value === undefined)
+        {
+            this.props.ListarProdutos();
             return;
+        }
 
         if (type === 'EDITAR_PRODUTO') 
             this.props.BuscarProdutoParaEditar(value, type);     
